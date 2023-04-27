@@ -1,0 +1,53 @@
+.lorem {
+  color: rgb(97, 97, 97);
+    font-family: Verdana;
+  }
+
+.lorem b, .lorem i {
+  color: #7B7B80FF;
+}
+
+.empty p::first-letter { /* звернутись до першого символу */
+  color: #DBA708FF;
+  text-decoration: underline;
+}
+.empty p::first-of-type { /* звернутись до першого рядку */
+  color: #DBA708FF;
+  text-decoration: underline;
+}
+
+.main_l {
+  color: #E41C2EFF;
+  text-decoration: none; /* підкреслення тексту */
+}
+.main_l:hover {
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: black; /* колір підкреслення тексту */
+}
+
+.main_l:active { /* :active - коли нажимаєш */
+  color: black;
+}
+
+.main_l:visited { /* :visited - коли вже перейшов по силці */
+  display: contents;
+}
+
+input:focus {color: black} /* :focus - коли щось печатаєш, робиш */
+input {color: #4F4F4FFF;}
+
+.empty:not(empty) { /* :empty - звернення до пустого об'єкту; :not(empty) - не до пустого */
+  color: black;
+  font-family: Verdana;
+}
+
+#some_id::after { /* ::after - за елементом (з ним неможна контактувати, виділяти)*/
+  content: " after";
+  color: #828282FF;
+}
+
+#some_id::before { /* ::before - перед елементом (з ним неможна контактувати, виділяти)*/
+  content: "after ";
+  color: #828282FF;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <style>
+        .change-photos:hover .change-photo:nth-of-type(1) {
+  display: none;
+}
+
+.change-photos:hover .change-photo:nth-of-type(2) {
+  display: block;
+}
+
+.change-photos:hover {
+  cursor: pointer;
+}
+.change-photos .change-photo:nth-of-type(2) {
+  display: none;
+}
+    .card img {
+      border-radius: 16px;
+    }
+    .card {
+      border-radius: 16px;
+      margin: -15px -18px;
+    }
+    .bg-dark {
+      color: ivory;
+    }
+    .card:hover img {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .q {
+      width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand p-0" href="testirovshchik.html">
+        <div class="change-photos">
+          <div class="change-photo">
+            <img src="S.png" alt="stasik-pidorasik" width="40">
+          </div>
+          <div class="change-photo">
+            <img src="S-L.png" alt="stasik-pidorasik" width="40">
+          </div>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="testirovshchik.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="places.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container my-4 q">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-5">
+      <a href="1.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+              <img src="compr_img/1c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="10.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/10c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="2.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/2c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="9.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/9c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="4.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/4c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="5.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/5c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="6.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/6c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="11.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/11c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="8.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/8c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="3.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="compr_img/3c.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="kolia.jpg" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="kolia.jpg" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="7.JPG" target="_blank">
+        <div class="col">
+          <div class="card">
+            <img src="7.jpg" alt="">
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
